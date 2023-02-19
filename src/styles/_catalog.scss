@@ -1,6 +1,7 @@
 .catalog {
   display: grid;
   justify-content: center;
+  grid-template-columns: repeat(1, 200px);
   gap: 48px;
   margin: 0 auto;
 
@@ -11,12 +12,6 @@
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-}
-
-@media (max-width: 487px) {
-  .catalog {
-    grid-template-columns: repeat(1, 200px);
   }
 }
 
